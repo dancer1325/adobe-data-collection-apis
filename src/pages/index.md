@@ -37,7 +37,12 @@ description: Overview of the Adobe Experience Platform data collection APIs.
       * non-authenticated
 * **Media Edge API**
   * == endpoints / 
-    * allow you -- to send -- media tracking data | Adobe 
+    * allow you 
+      * -- to send -- media tracking data | Adobe
+      * -- to compose -- streaming media session | Adobe's servers
+        * | complete the session completes, those events are
+          * -- aggregated into a -- smaller number of events
+          * -- sent to the -- desired datastream
     * requirements
       * Streaming Media Collection Add-on
 
